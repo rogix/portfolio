@@ -30,6 +30,4 @@
       }
     });
   });
-               
-  
 })(jQuery); // end of jQuery name space

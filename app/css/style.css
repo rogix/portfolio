@@ -44,6 +44,16 @@ p {
   font-weight: bolder;
 }
 
+.btn-portfolio {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 20px 30px;
+  border: 2px solid #8e3ac1;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #c8c8c8;
+}
+
 .showcase {
   min-height: 100vh;
   margin-top: 5%;
