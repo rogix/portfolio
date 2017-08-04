@@ -93,6 +93,13 @@ p {
     background-color: rgba(35, 53, 113, 0.30);
 }
 
+/* About page */
+
+.about-page, .contact-page {
+  height: 100vh;
+  background: red;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
