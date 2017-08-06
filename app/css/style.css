@@ -97,7 +97,19 @@ p {
 
 .about-page, .contact-page {
   height: 100vh;
-  background: red;
+  background: #0fbcce;
+}
+
+/* Contact Page */
+textarea {
+  height: 25rem !important;
+  padding: 20px 10px;
+  background: rgba(4, 26, 60, 0.09);
+  border: none;
+}
+
+input[type=text] {
+  background: rgba(4, 26, 60, 0.09);
 }
 
 @media only screen and (max-width : 992px) {
