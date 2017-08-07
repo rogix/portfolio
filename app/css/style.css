@@ -96,18 +96,26 @@ p {
 
 /* About page */
 
-.about-page, .contact-page {
+.about-page {
   min-height: 100vh;
   background: #6a1dbc;
 }
 
 /* Contact Page */
+
+.contact-page {
+  min-height: 100vh;
+  background: #6a1dbc;
+}
+
 textarea {
-  height: 25rem !important;
+  height: 25rem;
   padding: 20px 10px;
   background: rgba(4, 26, 60, 0.09);
   border: 1px solid #8e3ac1;
   border-radius: 7px;
+  outline: none;
+  color: #fff;
 }
 
 input[type="text"], input[type="email"] {
