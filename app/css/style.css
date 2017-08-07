@@ -117,6 +117,14 @@ input[type="text"], input[type="email"] {
   padding-left: 5px;
 }
 
+.btn-submit {
+  padding: 20px 30px;
+  background: none;
+  border: 2px solid #8e3ac1;
+  border-radius: 5px;
+  float: right;
+}
+
 @media only screen and (max-width : 992px) {
 
 }
