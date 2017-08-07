@@ -136,6 +136,14 @@ input[type="text"], input[type="email"] {
   float: right;
 }
 
+/* Page Footer */
+.fa {
+  font-size: 40px;
+  padding: 10px 20px;;
+  color: rgba(196, 196, 196, 0.41);
+  cursor: pointer;
+}
+
 @media only screen and (max-width : 992px) {
 
 }
