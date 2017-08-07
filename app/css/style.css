@@ -29,9 +29,10 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
 
 .nav-wrapper h3 {
   margin: 0;
@@ -96,7 +97,7 @@ p {
 /* About page */
 
 .about-page, .contact-page {
-  height: 100vh;
+  min-height: 100vh;
   background: #6a1dbc;
 }
 
@@ -113,8 +114,10 @@ input[type="text"], input[type="email"] {
   background: rgba(4, 26, 60, 0.09);
   border: 1px solid #8e3ac1;
   border-radius: 7px;
-  width: 99%;
-  padding-left: 5px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .btn-submit {
