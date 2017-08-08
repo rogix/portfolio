@@ -2,7 +2,9 @@
   $(function(){
 
     $('.button-collapse').sideNav();
-    $('.parallax').parallax();
+    $('.btn-menu a').click(function() {
+      $('.side-nav').hide('slow');
+    })
 
     $('.pushpin-nav').each(function() {
       var $this = $(this);
@@ -12,7 +14,6 @@
         bottom: $target.offset().top + $target.outerHeight() - $this.height()
       });
     });
-        
   }); // end of document ready
 
   /* Scroll to specific section on front page */
