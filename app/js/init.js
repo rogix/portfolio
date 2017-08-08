@@ -2,9 +2,10 @@
   $(function(){
 
     $('.button-collapse').sideNav();
-    $('.btn-menu a').click(function() {
-      $('.side-nav').hide('slow');
-    })
+
+    $('.side-nav li a').click(function() {
+      $('.button-collapse').sideNav('hide');
+    });
 
     $('.pushpin-nav').each(function() {
       var $this = $(this);
