@@ -1,5 +1,5 @@
 (function($){
-  $(function(){
+  $( document ).ready(function(){
 
     $('.button-collapse').sideNav();
 
@@ -15,10 +15,8 @@
         bottom: $target.offset().top + $target.outerHeight() - $this.height()
       });
     });
-  }); // end of document ready
 
   /* Scroll to specific section on front page */
-  $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = $(this.hash);
